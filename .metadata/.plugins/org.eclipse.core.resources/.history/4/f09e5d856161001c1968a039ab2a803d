@@ -1,0 +1,5 @@
+package com.uni.chap07_method.part01_methodTest.controller;
+
+public class NonStaticMethod {
+
+}

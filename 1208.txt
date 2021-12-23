@@ -1,0 +1,151 @@
+자바의 큰 장점 "객체지향언어"이다, 사용하기 쉬운 언어
+
+jvm(java virtual Machine)
+자바를 실행하기 위한 가상 기계, 플랫폼에 의존적
+byte code(class 파일)를 해석하고 실행하는 interpreter
+
+이클립스 압축 c에 풀기
+
+자바 프로그래밍 기본
+public class 클래스명 {
+	// 메인 메서드의 선언부
+	public static void main(String[] args) {
+		// 실행될 문장들을 적는다
+	}
+}
+
+주석
+/* */: 범위 주석
+// : 한 줄 주석
+
+출력 메소드
+System.out.println()
+System.out.print()
+
+eclipse 실행 
+Jworkspace <- workspace 설정 
+launch
+작업 표시줄에 고정
+window - preferences - General - editor - spelling - encoding - other - UTF-8
+window - preferences - General - workspace - other - UTF-8
+
+open perspective
+java
+open
+
+create a new project
+project name: 01.firstProject
+next
+체크박스 해제
+finish
+
+window - show view - navigator (왼쪽 폴더로)
+
+src 좌클릭 - new - Class
+Package: com.uni.first
+Name: HelloWorld
+public static void main(String[] args) 체크
+Finish
+
+
+----------------------------------------------------------------------------
+package com.uni.first; // 유사한 클래스들을 묶어주는 패키지
+// 한줄 컨트롤 + /
+/* 영역, 전체주석 -> 글을 적고 범위를 잡아서 컨트롤 + 시프트 + / */
+/**
+ * 클래스: 
+ * 최초작성자: 
+ * Date:
+ * 설명:
+ **/
+
+// ctrl + z 실행 뒤로 
+// ctrl + y 실행 앞으로
+// ctrl + s 저장
+public class HelloWorld { // 클래스
+ // public: 메인 메소드는 외부에서 호출할 수 있다
+ // static: 객체를 생성하지 않고도 실행시킬 수 있다
+ // void: 반환되는 값이 없다.
+ // String[] args: 스트링 배열로 인자를 받겠다
+ public static void main(String[] args){ // 실행 메서드
+  System.out.println("hi"); // sysout(ctrl+space)
+
+  // System.out.println(args[0]);
+  // System.out.println(args[1]);
+
+  System.out.println("안녕하세요");
+  System.out.print("안녕하세요");
+  System.out.print("반갑습니다\n"); // \n -> 줄 바꿈
+  System.out.print("안녕하세요");
+ }
+
+--------------------------------------------------------------------------
+java 파일 - 좌클릭 - Run as - Java Application
+
+first - new - class
+Name: A_MethodPrinter
+
+--------------------------------------------------------------------------
+package com.uni.first; // 패키지명은 항상 소문자로 시작한다.
+
+// ctrl + shft + f : 라인 정리
+public class A_MethodAPrinter { // 클래스명은 항상 대문자로 시작한다.
+ public void methodA() { // 메소드명은 항상 소문자로 시작한다.
+    System.out.println("methodA출력문");
+    methodB();
+ }
+ public void methodB() {
+    System.out.println("methodB출력문");
+    int a = methodC(1000);
+    System.out.println(a);
+ }
+ public int methodC(int intValue) {
+    System.out.println("methodC출력문" + intValue);
+    return intValue + 100;
+ }
+}
+
+--------------------------------------------------------------------------
+
+src - new - class
+Package: com.uni.run
+Name: RunA
+public static void main(String[] args) 체크
+
+
+--------------------------------------------------------------------------
+package com.uni.run;
+
+import com.uni.first.A_MethodPrinter; // ctrl + shft + o
+
+public class RunA {
+ public class static void main(String[] args) {
+  /* 1) 실행할 메소드가 있는 클래스를 생성 (new)
+   * [표현법] 클래스명 사용할 이름(참조변수) = new 클래스명();
+  */'
+  A_MethodPrinter a= new A_MethodPrinter(); // ctrl + space => import
+
+  /* 2) 생성후 메소드 실행(호출)
+   * [표현법] 사용할이름.실행할메소드명();
+   */
+  /* a.methodA();
+  a.methodB();
+  a.methodC(); */
+
+  a.methodA();
+ }
+}
+
+--------------------------------------------------------------------------
+first - new - class
+Name: B_ValuePrinter
+--------------------------------------------------------------------------
+package com.uni.first;
+
+public class
+--------------------------------------------------------------------------
+run - new - class
+Name: RunB
+public static void main 체크
+--------------------------------------------------------------------------
+package com.uni.

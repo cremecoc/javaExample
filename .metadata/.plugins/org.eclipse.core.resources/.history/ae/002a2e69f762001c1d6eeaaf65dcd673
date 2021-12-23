@@ -1,0 +1,18 @@
+package com.uni.chap01_before_vs_after.after.model.vo;
+
+public class Desktop extends Product{
+	
+	private boolean allInOne; // 일체 여부
+	
+	public Desktop() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Desktop(String brand, String pCode, String pName, int price, boolean allInOne) {
+		super(brand, pCode, pName, price);
+		this.allInOne = allInOne;
+	}
+	
+	
+
+}

@@ -1,0 +1,10 @@
+package com.uni.run;
+
+public class RunA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

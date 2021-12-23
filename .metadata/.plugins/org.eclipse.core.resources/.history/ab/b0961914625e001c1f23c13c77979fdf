@@ -1,0 +1,23 @@
+package com.kh.dimension.practice;
+
+public class DimensionPractice {
+	
+	public void practice1() {
+		// 1. 1차원 배열의 1~16 값 넣기
+		int[] arr = new int[16];
+		
+		for(int i = 0; i < arr.length; i++) {
+			arr[i] = i;
+		}
+		
+		int[][] arr2 = new int[4][4];
+		int num = 0;
+		for(int i = 0; i < arr2.length; i++) {
+			for(int j = 0; j < arr2[i].length; i++) { // i행의 열 값 구하기
+				arr2[i][j] = arr[num]; 
+				System.out.print(arr2[i][j] + " ");
+			}
+		}
+	}
+
+}

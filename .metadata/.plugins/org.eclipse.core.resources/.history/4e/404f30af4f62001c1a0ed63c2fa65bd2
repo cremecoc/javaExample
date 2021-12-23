@@ -1,0 +1,136 @@
+package mvc.view;
+
+import java.util.Scanner;
+
+import mvc.controller.MemberController;
+import mvc.model.vo.Member;
+
+public class MemberMenu {
+
+	private MemberController mc = new MemberController();
+	private Scanner sc = new Scanner(System.in);
+	
+	public void mainMenu() {
+		while(true) {
+			mc.getMemberCount();
+			System.out.println("=== 회원 관리 메뉴 ===");
+			System.out.println("1. 신규 회원 등록");
+			System.out.println("2. 회원 정보 검색");
+			System.out.println("3. 회원 정보 수정");
+			System.out.println("4. 회원 정보 삭제");
+			System.out.println("5. 회원 정보 출력");
+			System.out.println("6. 회원 정보 정렬");
+			System.out.println("9. 프로그램 종료");
+			
+			System.out.println("메뉴 번호 입력: ");
+			int menu = sc.nextInt(); // 값 입력받기
+			sc.nextLine();
+			
+			switch(menu) { // 입력받은 menu 값에 따라 case 설정
+			case 1:
+				insertMember();
+				break;
+			case 2:
+				searchMember();
+				break;
+			case 3:
+				updateMember();
+				break;
+			case 4:
+				deleteMember();
+				break;
+			case 5:
+				printAllMember();
+				break;
+			case 6:
+				sortMember();
+				break;
+			case 9:
+				System.out.println("프로그램을 종료합니다");
+				return;
+			default:
+				System.out.println("잘못 입력하셨습니다");
+				break;
+			}
+		}
+	}
+
+	private void sortMember() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void printAllMember() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void deleteMember() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void updateMember() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void searchMember() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void insertMember() {
+		// 1. 현재 회원 수가 최대 회원수를 넘어설 경우 return 처리
+		// MemberController의 getMembercount() 메소드를 통해 현재 회원 수 알아오고
+		// 최대 회원 수는 상수필드여서 클래스명으로 직접 접근 가능
+		
+		if(mc.SIZE < mc.getMemberCount()) {
+			System.out.println("입력할 수 있는 회원 수를 초과하셨습니다.");
+			return;
+		} else {
+			System.out.println("아이디 입력: ");
+			String userId = sc.nextLine();
+			
+			Member chk = mc.checkId(userId); // 입력한 id 값을 checkId에 넘긴다
+			System.out.println(chk);
+			
+			if(chk != null) {
+				System.out.println("동일한 아이디가 존재합니다. 회원 등록 실패.");
+				return;
+			} else {
+				
+				System.out.println("비밀번호 입력: ");
+				String userPwd = sc.nextLine();
+				
+				System.out.println("이름 입력: ");
+				String name = sc.nextLine();
+				
+				System.out.println("나이 입력: ");
+				int age = sc.nextInt();
+				
+				sc.nextLine();
+				
+				System.out.println("성별 입력(M/F): ");
+				char gender = sc.nextLine().charAt(0);
+				
+				System.out.println("이메일 입력: ");
+				String email = sc.nextLine();
+				
+				Member m = null;
+				m.setUserId(userId);
+				m.setUserPwd(userPwd);
+				m.setName(name);
+				m.setAge(age);
+				m.setGender(gender);
+				m.setEmail(email);
+				
+				mc.insertMember(m);
+			}
+			
+			
+			
+		}
+		
+	}
+}

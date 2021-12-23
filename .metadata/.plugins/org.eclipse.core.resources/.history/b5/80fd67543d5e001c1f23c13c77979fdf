@@ -1,0 +1,15 @@
+package com.uni.run;
+
+import java.awt.Dimension;
+
+public class Run {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Dimension a = new Dimension();
+		a.method1();
+
+	}
+
+}

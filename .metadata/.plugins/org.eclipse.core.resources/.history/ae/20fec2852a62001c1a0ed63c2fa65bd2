@@ -1,0 +1,5 @@
+package com.uni.part01.object_vs_objectArr.model.vo;
+
+public class Book {
+
+}

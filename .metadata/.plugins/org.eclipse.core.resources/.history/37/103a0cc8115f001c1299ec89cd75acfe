@@ -1,0 +1,33 @@
+package com.uni.chap03_class.run;
+
+import java.util.Scanner;
+import com.uni.chap03_class.model.vo.Person;
+
+public class Run {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Person p = new Person();
+		
+		p.setId("user01");
+		p.setPwd("pass01");
+		p.setName("리즈");
+		p.setAge(18);
+		p.setGender('F');
+		p.setPhone("010-1111-2222");
+		p.setEmail("zzangjw@like.u");
+		
+		System.out.println(p.information());
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("변경할 이름: ");
+		String name = sc.nextLine();
+		
+		// 이름 변경
+		p.setName(name);
+		
+		System.out.println(p.information());
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.hw1.run;
+
+import com.hw1.model.vo.Book;
+
+public class BookTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Book b = new Book();
+
+		Book b2 = new Book("자바의정석", 2000, 0.2, "윤상섭");
+		
+		System.out.println(b.information());
+		System.out.println(b2.information());
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.uni.chap03_override.model.vo;
+
+public class Book {
+
+}

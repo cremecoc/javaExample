@@ -1,0 +1,5 @@
+package com.uni.chap01_Abstraction.model.vo;
+
+public class Student {
+
+}

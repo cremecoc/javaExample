@@ -1,0 +1,65 @@
+package com.method.hw2.controller;
+
+public class NonStaticSample {
+	
+	public int[] intArrayAllocation(int length) {
+		int[] arr = new int[length];
+		for(int i = 0; i < arr.length; i++) {
+			arr[i] = (int)(Math.random() * 100 + 1);
+		}
+		return arr;
+	}
+	
+	public void display(int[] arr) {
+		for(int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+	}
+	
+	public void swap(int[] arr, int idx1, int idx2) {
+
+			int temp = arr[idx1];
+			arr[idx1] = arr[idx2];
+			arr[idx2] = temp;
+
+	}
+	
+	public void sortDescending(int[] arr) {
+		for(int i = 0; i < arr.length; i++) {
+			for(int j = i + 1; j < arr.length; j++) {
+				if(arr[i] > arr[j]) { // 값 비교 arr[i]가 크다면
+					swap(arr, i, j); // swap 호출
+				}
+			}
+		}
+		display(arr);
+	}
+	
+	public void sortAscending(int[] arr) {
+		for(int i = 0; i < arr.length; i++) {
+			for(int j = i + 1; j < arr.length; j++) {
+				if(arr[i] < arr[j]) {
+					swap(arr, i, j); // swap 호출
+				}
+			}
+		}
+		display(arr); // 배열 출력
+	}
+	
+	public int countChar(String str, char c) {
+		
+	}
+	
+	public int totalValue(int num1, int num2) {
+		
+	}
+	
+	public char pCharAt(String str, int index) {
+		
+	}
+	
+	public String pConcat(String str1, String str2) {
+		
+	}
+
+}

@@ -1,0 +1,34 @@
+package com.method.hw3.controller;
+
+public class StaticSample {
+
+	private String value;
+
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
+	
+	public void toUpper() {
+		for(int i = 0; i < value.length(); i++) {
+			
+		}
+		value.charAt(0);
+	}
+	
+	public void setChar(int index, char c) {
+		
+	}
+	
+	public int valueLength() {
+		
+	}
+	
+	public String valueConcat(String str) {
+		
+	}
+	
+}

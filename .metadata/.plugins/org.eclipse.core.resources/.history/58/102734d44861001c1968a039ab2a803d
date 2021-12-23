@@ -1,0 +1,26 @@
+package com.hw1.run;
+
+import com.hw1.model.vo.Product;
+
+public class ProductTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Product p1 = new Product();
+		p1.setProductId("ssgnote9");
+		p1.setProductName("갤럭시노트9");
+		p1.setProductArea("경기도 수원");
+		p1.setPrice(960000);
+		p1.setTax(10.0);
+		
+		Product p2 = new Product();
+		p2.setProductId("lgcnote5");
+		p2.setProductName("갤럭시노트9");
+		p2.setProductArea("경기도 수원");
+		p2.setPrice(960000);
+		p2.setTax(10.0);
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package mvc.view;
+
+import java.util.Scanner;
+
+import mvc.controller.MemberController;
+
+public class MemberView {
+	private Scanner sc = new Scanner(System.in);
+	private MemberController mc = new MemberController();
+	
+	public void mainMenu() {
+		
+	}
+	
+	public void updateHeight() {
+		
+	}
+
+}

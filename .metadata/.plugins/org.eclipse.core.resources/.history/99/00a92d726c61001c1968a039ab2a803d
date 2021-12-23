@@ -1,0 +1,10 @@
+package com.uni.chapter08_mvc.controller;
+
+public class ProductController {
+
+	public void insertProduct(String pName, String brand, int price) {
+		
+		
+	}
+
+}

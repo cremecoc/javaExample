@@ -1,0 +1,5 @@
+package com.uni.chap03_class.model.vo;
+
+public class Product {
+
+}

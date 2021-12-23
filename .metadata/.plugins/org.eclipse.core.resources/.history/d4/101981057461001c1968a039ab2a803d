@@ -1,0 +1,9 @@
+package mvc.controller;
+
+import mvc.model.vo.Member;
+
+public class MemberController {
+	private Member mem = new Member();
+	
+
+}

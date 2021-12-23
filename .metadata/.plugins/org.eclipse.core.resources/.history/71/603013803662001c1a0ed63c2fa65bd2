@@ -1,0 +1,5 @@
+package com.uni.part02.personMVC.controller;
+
+public class PersonController {
+
+}

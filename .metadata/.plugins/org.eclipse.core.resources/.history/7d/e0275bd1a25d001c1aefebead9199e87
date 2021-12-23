@@ -1,0 +1,88 @@
+package com.uni.array.practice;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class ArrayPractice {
+	
+	public void practice1() {
+		int[] arr = new int[10];
+		
+		for(int i = 0; i < 10; i++) {
+			arr[i] = i + 1; 
+			System.out.print(arr[i] + " ");
+		}
+		
+	}
+	
+	public void practice2() {
+		int[] arr = new int[10];
+		for(int i = 0; i < 10; i++) {
+			arr[i] = i + 1; 
+		}
+		for(int i = 0; i < arr.length; i++) {
+			for(int j = i + 1; j < arr.length; j++) {
+				if(arr[i] < arr[j]) {
+					int temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+		for(int i = 0; i < 10; i++) {
+			System.out.print(arr[i] + " ");
+		}
+		
+	}
+	
+	public void practice3() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("양의 정수: ");
+		int num = sc.nextInt();
+		
+		int[] arr = new int[num];
+		
+		for(int i = 0; i < num; i++) {
+			arr[i] = i + 1; 
+			System.out.print(arr[i] + " ");
+		}
+	}
+	
+	public void practice4() {
+		String[] arr = {"사과", "귤", "포도", "복숭아", "참외"};
+		
+		System.out.println(arr[1]);
+	}
+	
+	public void practice5() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("문자열: ");
+		String s = sc.nextLine();
+		sc.nextLine();
+		sc.nextLine();
+		
+		System.out.println("문자: ");
+		char ch = sc.nextLine().charAt(0);
+		
+		char[] arr = new char[s.length()];
+		
+		int count = 0;
+		
+		System.out.print(s + "에 " + ch + "가 존재하는 위치(인덱스) : ");
+		for(int i = 0; i < s.length(); i++) {
+			arr[i] = s.charAt(i);
+			if(arr[i] == ch) {
+				System.out.print(i + " ");
+				count++;
+			}
+		}
+		
+		System.out.println("i 개수: " + count);
+		
+		
+		
+	}
+
+}

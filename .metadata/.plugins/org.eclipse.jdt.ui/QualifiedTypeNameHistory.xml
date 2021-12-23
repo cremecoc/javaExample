@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Byte"/>
+    <fullyQualifiedTypeName name="com.uni.variable.C_Overflow"/>
+    <fullyQualifiedTypeName name="com.uni.variable.D_Cast"/>
+    <fullyQualifiedTypeName name="com.uni.variable.E_Printf"/>
+    <fullyQualifiedTypeName name="com.uni.variable.F_KeyboardInput"/>
+    <fullyQualifiedTypeName name="com.hj.practice1.example.VariablePractice"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.hj.practice2.example.CastingPractice"/>
+    <fullyQualifiedTypeName name="com.uni.chap02.loop.C_DoWhile"/>
+    <fullyQualifiedTypeName name="com.uni.chap03.branch.A_Break"/>
+    <fullyQualifiedTypeName name="com.uni.chap02.loop.B_While"/>
+    <fullyQualifiedTypeName name="com.uni.chap03.branch.B_Continue"/>
+    <fullyQualifiedTypeName name="com.kh.chap02.practice.example.LoopPractice"/>
+    <fullyQualifiedTypeName name="com.uni.chap02_encapsulation.model.vo.Student"/>
+    <fullyQualifiedTypeName name="com.uni.chap03_class.model.vo.Product"/>
+    <fullyQualifiedTypeName name="com.uni.chap04_field.model.vo.FieldTest1"/>
+    <fullyQualifiedTypeName name="com.hw1.model.vo.Product"/>
+    <fullyQualifiedTypeName name="com.hw1.model.vo.Book"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.uni.chap07_method.part01_methodTest.controller.NonStaticMethod"/>
+    <fullyQualifiedTypeName name="com.uni.chap07_method.part01_methodTest.controller.StaticMethod"/>
+    <fullyQualifiedTypeName name="com.uni.chapter08_mvc.view.ProductMenu"/>
+    <fullyQualifiedTypeName name="com.method.hw1.controller.NonStaticSample"/>
+    <fullyQualifiedTypeName name="com.method.hw2.controller.NonStaticSample"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.uni.part01.object_vs_objectArr.model.vo.Book"/>
+    <fullyQualifiedTypeName name="com.uni.chapter08_mvc.model.vo.Product"/>
+    <fullyQualifiedTypeName name="com.uni.part02.personMVC.model.vo.Person"/>
+    <fullyQualifiedTypeName name="mvc.view.MemberMenu"/>
+    <fullyQualifiedTypeName name="mvc.model.vo.Member"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.uni.chap01_before_vs_after.before.model.vo.Desktop"/>
+    <fullyQualifiedTypeName name="com.uni.chap01_before_vs_after.before.model.vo.SmartPhone"/>
+    <fullyQualifiedTypeName name="com.uni.chap01_before_vs_after.before.model.vo.Tv"/>
+    <fullyQualifiedTypeName name="com.uni.chap01_before_vs_after.after.model.vo.Desktop"/>
+    <fullyQualifiedTypeName name="com.uni.chap02_inherit.model.vo.Vehicle"/>
+    <fullyQualifiedTypeName name="com.uni.chap02_inherit.model.vo.Airplane"/>
+    <fullyQualifiedTypeName name="com.uni.chap02_inherit.model.vo.Car"/>
+    <fullyQualifiedTypeName name="com.uni.chap02_inherit.model.vo.Ship"/>
+    <fullyQualifiedTypeName name="com.uni.chap03_override.model.vo.Book"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="mvc.controller.MemberController"/>
+</qualifiedTypeNameHistroy>

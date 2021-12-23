@@ -1,0 +1,23 @@
+package com.hw1.view;
+
+import java.util.Scanner;
+
+public class EmpMenu {
+	Scanner sc = new Scanner(System.in);
+	public EmpMenu() {
+		
+	}
+	
+	public void mainMenu() {
+		
+	}
+	
+	public inputEmployee() {
+		
+	}
+	
+	public void modifyEmployee() {
+		
+	}
+
+}

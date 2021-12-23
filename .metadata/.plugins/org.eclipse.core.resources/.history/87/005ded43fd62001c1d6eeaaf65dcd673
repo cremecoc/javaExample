@@ -1,0 +1,5 @@
+package com.uni.chap02_inherit.model.vo;
+
+public class Vehicle {
+
+}

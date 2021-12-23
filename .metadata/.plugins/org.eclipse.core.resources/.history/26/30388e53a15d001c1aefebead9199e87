@@ -1,0 +1,57 @@
+package com.uni.array.practice;
+
+import java.util.Scanner;
+
+public class ArrayPractice {
+	
+	public void practice1() {
+		int[] arr = new int[10];
+		
+		for(int i = 0; i < 10; i++) {
+			arr[i] = i + 1; 
+			System.out.print(arr[i] + " ");
+		}
+		
+	}
+	
+	public void practice2() {
+		int[] arr = new int[10];
+		for(int i = 0; i < 10; i++) {
+			arr[i] = i + 1; 
+		}
+		for(int i = 0; i < arr.length; i++) {
+			for(int j = i + 1; j < arr.length; j++) {
+				if(arr[i] < arr[j]) {
+					int temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+		for(int i = 0; i < 10; i++) {
+			System.out.print(arr[i] + " ");
+		}
+		
+	}
+	
+	public void practice3() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("양의 정수: ");
+		int num = sc.nextInt();
+		
+		int[] arr = new int[num];
+		
+		for(int i = 0; i < num; i++) {
+			arr[i] = i + 1; 
+			System.out.print(arr[i] + " ");
+		}
+	}
+	
+	public void practice4() {
+		String[] arr = {"사과", "귤", "포도", "복숭아", "참외"};
+		
+		System.out.println(arr[1]);
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.uni.part02.personMVC.model.vo;
+
+public class Person {
+
+}
