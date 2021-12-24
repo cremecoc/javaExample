@@ -52,7 +52,7 @@ public class PersonController {
 		String avg2 = String.format("%.2f", avg);
 		
 		// String.valueOf --> String형으로 변환
-		return String.valueOf(avg) + " %.3f: " + avg1 + " %.2f: " + avg2;
+		return String.valueOf(avg) + " %.3f: " + avg1
 	}
 
 }
