@@ -3,6 +3,7 @@ package com.uni.chap02_inherit.run;
 import com.uni.chap02_inherit.model.vo.Airplane;
 import com.uni.chap02_inherit.model.vo.Car;
 import com.uni.chap02_inherit.model.vo.Ship;
+import com.uni.chap02_inherit.model.vo.Vehicle;
 
 public class Run {
 
@@ -18,6 +19,17 @@ public class Run {
 		a.howToMove();
 		c.howToMove();
 		s.howToMove();
+		
+		// 다형성을 적용하고 for each로 howtoMove() 찍기
+		
+		Vehicle[] v1 = new Vehicle[3];
+		v1[0] = a;
+		v1[1] = c;
+		v1[2] = s;
+		
+		for(Vehicle v : v1) {
+			v.howToMove();
+		}
 	}
 
 }

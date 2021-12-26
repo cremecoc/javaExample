@@ -29,8 +29,6 @@
     <fullyQualifiedTypeName name="com.uni.chapter08_mvc.model.vo.Product"/>
     <fullyQualifiedTypeName name="com.uni.part02.personMVC.model.vo.Person"/>
     <fullyQualifiedTypeName name="mvc.view.MemberMenu"/>
-    <fullyQualifiedTypeName name="mvc.model.vo.Member"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.uni.chap01_before_vs_after.before.model.vo.Desktop"/>
     <fullyQualifiedTypeName name="com.uni.chap01_before_vs_after.before.model.vo.SmartPhone"/>
     <fullyQualifiedTypeName name="com.uni.chap01_before_vs_after.before.model.vo.Tv"/>
@@ -42,4 +40,14 @@
     <fullyQualifiedTypeName name="com.uni.chap03_override.model.vo.Book"/>
     <fullyQualifiedTypeName name="java.util.Objects"/>
     <fullyQualifiedTypeName name="mvc.controller.MemberController"/>
+    <fullyQualifiedTypeName name="com.hw2.model.vo.Rectangle"/>
+    <fullyQualifiedTypeName name="com.uni.chap01_poly.part02_electronic.controller.ElectronicController"/>
+    <fullyQualifiedTypeName name="com.uni.chap01_poly.part02_electronic.model.vo.Desktop"/>
+    <fullyQualifiedTypeName name="com.uni.chap01_poly.part02_electronic.controller.ElectronicController2"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="mvc.view.LibraryMenu"/>
+    <fullyQualifiedTypeName name="mvc.model.vo.Member"/>
+    <fullyQualifiedTypeName name="mvc.model.vo.Book"/>
+    <fullyQualifiedTypeName name="mvc.controller.LibraryManager"/>
+    <fullyQualifiedTypeName name="mvc.model.vo.CookBook"/>
 </qualifiedTypeNameHistroy>

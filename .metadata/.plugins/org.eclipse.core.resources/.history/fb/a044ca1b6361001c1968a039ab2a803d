@@ -1,9 +1,0 @@
-package com.uni.chap06_constructor.model.vo;
-
-public class User {
-	
-	public User(String userId, String) {
-		this.userId
-	}
-
-}
