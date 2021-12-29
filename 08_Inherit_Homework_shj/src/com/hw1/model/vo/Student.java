@@ -11,7 +11,9 @@ public class Student extends Person {
 
 	public Student(String name, int age, double height, double weight, int grade, String major) {
 		super(age, height, weight);
+		// 상속받은 클래스에서 name은 protected이기 때문에 직접적으로 접근한 뒤 초기화
 		super.name = name;
+		
 		this.grade = grade;
 		this.major = major;
 	}

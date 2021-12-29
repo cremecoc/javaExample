@@ -24,9 +24,19 @@ public class Run {
 			cArr[i].draw();
 		}
 		
+		// for each문
+		for(Circle c : cArr) {
+			c.draw();
+		}
+		
 		System.out.println("=== rectangle ===");
 		for(int i = 0; i < rArr.length; i++) {
 			rArr[i].draw();
+		}
+		
+		// for each문
+		for(Rectangle r : rArr) {
+			r.draw();
 		}
 
 	}
